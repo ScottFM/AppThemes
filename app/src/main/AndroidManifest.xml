@@ -15,6 +15,35 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <intent-filter>
+                <action android:name="com.example.Scott.AppThemes.Standard"  />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Nature">
+            <intent-filter>
+                <action android:name="com.example.Scott.AppThemes.Nature" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Fire">
+            <intent-filter>
+                <action android:name="com.example.Scott.AppThemes.Fire" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Kohawk">
+            <intent-filter>
+                <action android:name="com.example.Scott.AppThemes.Kohawk" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
         </activity>
     </application>
 
