@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.scott.appthemes.MainActivity">
+
+    <TextView
+        android:id="@+id/btnStandard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Standard Theme"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="61dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="216dp">
+
+        <Button
+            android:id="@+id/btnStandard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="Standard"
+            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/btnNature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/naturePrimary"
+            android:text="Nature"
+            android:textColor="@color/natureAccent" />
+
+        <Button
+            android:id="@+id/btnFire"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/firePrimary"
+            android:text="Fire"
+            android:textColor="@color/fireAccent" />
+
+        <Button
+            android:id="@+id/btnKohawk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/kohawkPrimary"
+            android:text="Kohawk"
+            android:textColor="@color/kohawkPrimaryDark" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
